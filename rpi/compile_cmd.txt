@@ -1,0 +1,1 @@
+clang++ -g -Wall -I /usr/local/include/ sensor_sw.cpp http.cpp -L /usr/local/lib/ -lboost_chrono -lportaudio -lboost_system -lgpio -lthr -o sensor_sw.elf

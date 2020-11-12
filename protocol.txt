@@ -1,0 +1,32 @@
+Sensor longpoll
+- The response to a longpoll consists of a concatenation of messages of the form:
+  - 1 byte: the type of msg
+  - 2 bytes: length of content (big-endian, as in network byte order)
+  - content
+- Message types:
+  - 1 = led
+  - 2 = siren_ctrl
+  - 3 = smoke_sleep
+  - 4 = audio_stream
+  - 5 = token
+- The last message is a "token" message.
+
+Sensor event
+- Sensor sends "smoke_on", "smoke_off", or "motion" as the "event" field of HTTP GET.
+
+Gui longpoll
+- Gui sends an HTTP GET, with possibly some value as the "token" field.
+  - If token is empty or non-existent, longpoll-server returns immediately, reporting the current state.
+  - Otherwise, longpoll-server waits until an event happens and sends the new changes to the state.
+  - Every response includes a token to be used in subsequent requests.
+
+Gui event
+- LED ctrl
+  - On
+  - Off
+  - Blink
+- Audio streaming
+- Smoke sensor ctrl
+  - Disable for an amount of time
+- Audio ctrl
+  - Enable/Disable alarm sounds

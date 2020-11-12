@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<svg width="799.9999999999999" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_20">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_21">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_24">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_23">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_25">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_29">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <polyline marker-start="url(#se_marker_start_svg_24)" se:connector="svg_8 svg_13" fill="none" stroke="#000000" points="676.327,395.5 694.911,449.75 713.495,504" id="svg_24"/>
+  <polyline marker-start="url(#se_marker_start_svg_23)" se:connector="svg_8 svg_10" fill="none" stroke="#000000" points="639.17,395.5 621.001,447.125 602.831,498.75" id="svg_23"/>
+  <polyline marker-end="url(#se_marker_end_svg_21)" se:connector="svg_8 svg_15" fill="none" stroke="#000000" points="602.372,393 547.699,443.125 493.026,493.25" id="svg_21"/>
+  <polyline marker-end="url(#se_marker_end_svg_20)" se:connector="svg_8 svg_17" fill="none" stroke="#000000" points="582.25,378.195 540,398.382 497.75,418.57" id="svg_20"/>
+  <rect id="svg_1" height="169" width="204" y="50.25" x="67.9375" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="73.12504" x="169.75006" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">server pc</text>
+  <rect id="svg_3" height="276.00002" width="285.00002" y="217.500018" x="504.25007" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_4" y="244.500018" x="643.00008" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">sensor node rpi</text>
+  <path id="svg_5" d="m281.500061,147.000015l211.999939,116.249985l0,65.25l-213,-120.750031l1.000061,-60.749969l0,0.000015z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_7" y="194.25001" x="399.25006" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">wifi</text>
+  <rect id="svg_8" height="102.00001" width="151.50001" y="291.000018" x="582.25008" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="16" id="svg_9" y="312.000018" x="655.75008" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">sensor_sw</text>
+  <rect id="svg_11" height="92.25001" width="135.75002" y="90" x="85.00004" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" id="svg_12" y="113.25001" x="152.50004" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">webserver</text>
+  <rect id="svg_13" height="82.500022" width="120.250019" y="504.000063" x="667.50009" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="16" id="svg_6" y="523.000009" x="728.000062" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">smokesensor</text>
+  <rect id="svg_10" height="89.250007" width="134.250011" y="498.750041" x="520.000082" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="16" id="svg_14" y="515.250043" x="586.750087" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">motionsensor</text>
+  <rect id="svg_15" height="89.250007" width="122.25001" y="495.750041" x="380.500071" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="16" id="svg_16" y="510.000042" x="442.000076" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">led light</text>
+  <rect id="svg_17" height="76.500006" width="114.000009" y="408.750034" x="381.250071" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="16" id="svg_18" y="431.250036" x="438.250075" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">speaker</text>
+  <line marker-end="url(#se_marker_end_svg_25)" id="svg_25" y2="127" x2="224" y1="326" x1="578" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="16" id="svg_27" y="236.00001" x="434.666705" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">http longpoll</text>
+  <path id="svg_28" d="m22.755861,458.047058l94.66667,0m-47.117241,40.630859l46.252602,45.389099m-46.252602,-45.820313l-43.226635,45.820313m43.010494,-99.854523l0,54.03421m14.369461,-68.627411c0,7.936829 -6.433456,14.372162 -14.369461,14.372162c-7.936016,0 -14.369484,-6.435333 -14.369484,-14.372162c0,-7.934479 6.433468,-14.367615 14.369484,-14.367615c7.936005,0 14.369461,6.433136 14.369461,14.367615z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#000000"/>
+  <line marker-end="url(#se_marker_end_svg_29)" id="svg_29" y2="224.00001" x2="117.333363" y1="400.000015" x1="84.000029" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  <text id="svg_30" xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="16" y="342.666672" x="63.999976" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">http</text>
+ </g>
+</svg>

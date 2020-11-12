@@ -1,0 +1,1 @@
+clang++ -g -Wall -I /usr/local/include/ pc_sw.cpp -L /usr/local/lib/ -lboost_chrono -lboost_system -o pc_sw.elf
